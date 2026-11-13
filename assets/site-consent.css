@@ -1,0 +1,13 @@
+/* Aislado: estas clases no afectan el diseño original. */
+.mz-consent-panel[hidden]{display:none!important}
+.mz-consent-panel{position:fixed;left:16px;right:16px;bottom:16px;z-index:2147483000;max-width:980px;margin:0 auto;padding:0;border:1px solid #777;background:#131313;color:#fff;box-shadow:0 18px 60px rgba(0,0,0,.45);font:400 14px/1.5 Arial,Helvetica,sans-serif;text-align:left;letter-spacing:normal}
+.mz-consent-panel *{box-sizing:border-box}
+.mz-consent-inner{display:flex;align-items:center;justify-content:space-between;gap:26px;padding:21px 24px}
+.mz-consent-copy{flex:1;min-width:0}.mz-consent-copy strong{font-size:18px;color:#fff}.mz-consent-copy p{margin:6px 0;color:#e3e3e3;line-height:1.5;max-width:660px}
+.mz-consent-links{display:flex;flex-wrap:wrap;gap:16px}.mz-consent-links a{color:#fff;text-decoration:underline;text-underline-offset:3px;font:400 13px/1.5 Arial,Helvetica,sans-serif}
+.mz-consent-actions{display:flex;flex-shrink:0;gap:9px}.mz-consent-actions button{appearance:none;border:1px solid #fff;padding:11px 20px;min-width:100px;min-height:44px;cursor:pointer;border-radius:2px;font:600 14px/1.2 Arial,Helvetica,sans-serif;letter-spacing:normal}
+.mz-consent-reject{color:#fff;background:transparent}.mz-consent-accept{color:#111;background:#fff}
+.mz-consent-actions button:focus-visible,.mz-consent-links a:focus-visible{outline:3px solid #edc783;outline-offset:3px}
+.mz-footer-legal{display:flex;align-items:center;justify-content:center;gap:12px 22px;flex-wrap:wrap;font:400 12px/1.6 Arial,Helvetica,sans-serif;letter-spacing:normal;text-transform:none}
+.mz-footer-legal a{color:inherit;text-decoration:underline;text-underline-offset:3px}
+@media(max-width:670px){.mz-consent-panel{left:10px;right:10px;bottom:10px}.mz-consent-inner{flex-direction:column;align-items:stretch;gap:14px;padding:16px}.mz-consent-actions{width:100%}.mz-consent-actions button{flex:1;min-width:0}}

@@ -79,3 +79,9 @@ nav .nav-buy{display:inline-flex;align-items:center;justify-content:center;backg
 .author-composite{display:block;width:100%;height:auto}
 .author-composite-monochrome{filter:grayscale(1)}
 
+
+/* Portadas enlazadas a las webs de los otros libros */
+.bibliography .shelf-link{display:block;color:inherit;text-decoration:none}
+.bibliography .shelf-link .cover-box{transition:border-color .2s ease,transform .2s ease}
+.bibliography .shelf-link:hover .cover-box{border-color:#777;transform:translateY(-3px)}
+.bibliography .shelf-link:focus-visible{outline:2px solid #111;outline-offset:5px}

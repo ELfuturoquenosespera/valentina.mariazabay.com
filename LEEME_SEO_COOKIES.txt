@@ -1,0 +1,11 @@
+ACTUALIZACION DE WEB: VALENTINA - 13 NOVIEMBRE 2026
+
+1. Subir EL CONTENIDO del ZIP a la raíz del repositorio GitHub Pages.
+2. Incluye CNAME: valentina.mariazabay.com (no cambies los ajustes DNS si ya funcionan).
+3. Analytics 4: G-8SFV2TFR2V. La etiqueta se carga solo después de ACEPTAR. Se bloquea al rechazar; la preferencia se guarda por subdominio.
+4. Archivo de imagen social: assets/og-image.jpg (1200 x 630 px). Todas las páginas HTML incluyen Open Graph y Twitter Card con URL absoluta.
+5. SEO: titles, descriptions, URL canonical, etiquetas para redes, JSON-LD, robots.txt y sitemap.xml.
+6. Las páginas de privacidad, cookies y aviso legal son textos orientativos que deben ser revisados por la titular antes de publicarse.
+7. Comprueba en el servidor real que Google Analytics tiene la propiedad indicada y que se recibe tráfico al aceptar; en disco no se puede comprobar.
+8. Prueba las URL en el depurador de Facebook, LinkedIn y el inspector de URL de Search Console después de publicar; los previsualizadores pueden tener caché.
+9. Si tus otras webs ya tenían enlaces o CNAME en GitHub, no reemplaces el repositorio por una carpeta anidada.
